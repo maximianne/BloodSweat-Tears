@@ -66,3 +66,8 @@ if(hInput!=0 or vInput!=0){
 else{ 
 	image_index=0;
 }
+
+//here i am going to add the conditional 
+//elements that will be decided though the global variables.
+
+//before we start the game there will need to be customization room where you can apply the beginning customization keys. 

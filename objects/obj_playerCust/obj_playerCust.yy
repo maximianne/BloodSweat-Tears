@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_playerCust",
+    "path": "sprites/spr_playerCust/spr_playerCust.yy",
   },
-  "solid": true,
-  "visible": false,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "customizationRoom ",
+    "path": "folders/Objects/customizationRoom .yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block",
+  "name": "obj_playerCust",
   "tags": [],
   "resourceType": "GMObject",
 }
