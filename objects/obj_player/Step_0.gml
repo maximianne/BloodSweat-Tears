@@ -3,6 +3,147 @@
 hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput= keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if(reduce_health >= 3){
+	global.healthB = global.healthB - 1;
+	reduce_health = 0;
+}
+//character build
+if(global.strength==1){
+	
+}
+if(global.strength==2){
+	
+}
+if(global.strength==3){
+	
+}
+if(global.strength==4){
+	
+}
+if(global.strength==5){
+	
+}
+
+//cognizance 
+if(global.cognizance==1){
+	
+}
+if(global.cognizance==2){
+	
+}
+if(global.cognizance==3){
+	
+}
+if(global.cognizance==4){
+	
+}
+if(global.cognizance==5){
+	
+}
+
+//endurance 
+if(global.endurance==1){
+	
+}
+if(global.endurance==2){
+	
+}
+if(global.endurance==3){
+	
+	//level 3
+	if(keyboard_check_pressed(vk_shift)){
+		boost=4;
+	}
+	if(!keyboard_check_pressed(vk_shift)){ 
+		boost=0;
+	}
+}
+
+if(global.endurance==4){
+	
+}
+if(global.endurance==5){
+	//level 3
+	if(keyboard_check_pressed(vk_shift)){
+		boost=4;
+	}
+	if(!keyboard_check_pressed(vk_shift)){ 
+		boost=0;
+	}
+	
+	//level 4
+	
+	//level 5 
+	spd+=3;
+}
+
+//intelligence 
+if(global.intelligence==1){
+	
+}
+if(global.intelligence==2){
+	
+}
+if(global.intelligence==3){
+	
+}
+if(global.intelligence==4){
+	
+}
+if(global.intelligence==5){
+	
+}
+
+//agility 
+if(global.agility==1){
+	
+}
+if(global.agility==2){
+	
+}
+if(global.agility==3){
+	
+}
+if(global.agility==4){
+	
+}
+if(global.agility==5){
+	
+}
+
+//luck 
+if(global.luck==1){
+	
+}
+if(global.luck==2){
+	
+}
+if(global.luck==3){
+	
+}
+if(global.luck==4){
+	
+}
+if(global.luck==5){
+	
+}
+
+
+
+if(keyboard_check_pressed(vk_shift)){
+	boost=3;
+}
+if(!keyboard_check_pressed(vk_shift)){ 
+	boost=0;
+}
+
+if(place_meeting(x,y,obj_roughTerrain)){
+	spd=rspd+boost;
+}
+else{
+	spd=sped+boost;
+}
+
 if(hInput!=0 or vInput!=0){
 
 	dir=point_direction(0,0,hInput, vInput);
@@ -66,8 +207,3 @@ if(hInput!=0 or vInput!=0){
 else{ 
 	image_index=0;
 }
-
-//here i am going to add the conditional 
-//elements that will be decided though the global variables.
-
-//before we start the game there will need to be customization room where you can apply the beginning customization keys. 

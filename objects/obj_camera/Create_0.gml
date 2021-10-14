@@ -17,3 +17,5 @@ follow=obj_player;
 xTo=x;
 yTo=y;
 
+
+
