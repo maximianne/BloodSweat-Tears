@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "health and inventory",
+    "path": "folders/Objects/health and inventory.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_health",

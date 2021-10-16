@@ -49,7 +49,6 @@ if(global.endurance==2){
 	
 }
 if(global.endurance==3){
-	
 	//level 3
 	if(keyboard_check_pressed(vk_shift)){
 		boost=4;
@@ -70,7 +69,6 @@ if(global.endurance==5){
 	if(!keyboard_check_pressed(vk_shift)){ 
 		boost=0;
 	}
-	
 	//level 4
 	
 	//level 5 
@@ -128,8 +126,6 @@ if(global.luck==5){
 	
 }
 
-
-
 if(keyboard_check_pressed(vk_shift)){
 	boost=3;
 }
@@ -137,7 +133,7 @@ if(!keyboard_check_pressed(vk_shift)){
 	boost=0;
 }
 
-if(place_meeting(x,y,obj_roughTerrain)){
+if(place_meeting(x,y,obj_roughTerrainRM1)){
 	spd=rspd+boost;
 }
 else{
