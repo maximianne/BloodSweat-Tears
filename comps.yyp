@@ -16,6 +16,7 @@
     {"id":{"name":"spr_endurance","path":"sprites/spr_endurance/spr_endurance.yy",},"order":2,},
     {"id":{"name":"rm_mainMenu","path":"rooms/rm_mainMenu/rm_mainMenu.yy",},"order":1,},
     {"id":{"name":"obj_decreI","path":"objects/obj_decreI/obj_decreI.yy",},"order":8,},
+    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":8,},
     {"id":{"name":"obj_decreS","path":"objects/obj_decreS/obj_decreS.yy",},"order":2,},
     {"id":{"name":"spr_customizationBG","path":"sprites/spr_customizationBG/spr_customizationBG.yy",},"order":9,},
     {"id":{"name":"obj_increC","path":"objects/obj_increC/obj_increC.yy",},"order":7,},
