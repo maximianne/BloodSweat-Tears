@@ -3,6 +3,10 @@
 hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput= keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if(instance_exists(obj_displayAmount)){
+	speed=0;
+}
+else{ 
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
 	reduce_health = 0;
@@ -18,7 +22,7 @@ if(!keyboard_check_pressed(vk_shift)){
 if(place_meeting(x,y,obj_roughTerrainRM1)){
 	spd=rspd+boost;
 }
-else{
+if(!place_meeting(x,y,obj_roughTerrainRM1)){
 	spd=sped+boost;
 }
 
@@ -84,4 +88,5 @@ if(hInput!=0 or vInput!=0){
 
 else{ 
 	image_index=0;
+}
 }

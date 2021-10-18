@@ -4,3 +4,4 @@ global.luck=0;
 global.cognizance=0;
 global.endurance=0;
 global.intelligence=0;
+

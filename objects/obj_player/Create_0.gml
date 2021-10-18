@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-sped=3;
+sped=global.playerSpeed;
 
 reduce_health = 0;
 
