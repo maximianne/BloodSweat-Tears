@@ -33,3 +33,6 @@ global.randomMoreDamage=false;
 global.canCrouch=false;
 
 global.playerSpeed=3;
+
+global.wave=1;
+global.zombieAmount=0;

@@ -8,6 +8,7 @@ if(instance_exists(obj_displayAmount)){
 }
 
 else{ 
+	
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
 	reduce_health = 0;
