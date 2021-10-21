@@ -9,9 +9,14 @@ if(instance_exists(obj_displayAmount)){
 
 else{ 
 	
+
+
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
 	reduce_health = 0;
+}
+if(global.healthB==-1){
+	room_goto(rm_end)
 }
 
 //if(keyboard_check_pressed(vk_shift)){

@@ -1,1 +1,1 @@
-draw_sprite(spr_healthbar, 9-global.healthB, 120 , 20);
+draw_sprite(spr_healthbar, 11-global.healthB, 120 , 20);

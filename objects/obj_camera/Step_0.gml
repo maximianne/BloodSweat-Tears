@@ -8,9 +8,6 @@ if(follow!=noone){
 	yTo=follow.y;
 }
 
-//var vm= matrix_build_lookat(x,y,-10,x,y,0,0,1,0);
-//camera_set_view_mat(camera,vm);
-
 var viewWidth = 683;
 var viewHeight = 384;
 
@@ -18,4 +15,4 @@ var posx = clamp(x, viewWidth div 2, room_width - viewWidth div 2 - 1);
 var posy = clamp(y, viewHeight div 2, room_height - viewHeight div 2 - 1);
 
 var vm = matrix_build_lookat(posx,posy,-10,posx,posy,0,0,1,0);
-camera_set_view_mat(camera,vm);
+camera_set_view_mat(view_camera[0],vm);

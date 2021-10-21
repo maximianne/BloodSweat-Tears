@@ -1,3 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_runPath();
+
+
+	spd=4;	
+	scr_runPath();
+
+if(knifeStabs==2){
+	instance_destroy();	
+}

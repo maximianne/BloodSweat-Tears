@@ -10,3 +10,4 @@ spd=6;
 allowMove=true; 
 moving=false; 
 
+knifeStabs=0;
