@@ -7,4 +7,8 @@
 if(knifeStabs==4){
 	instance_destroy()	
 }
+if(bulletHoles==2){
+	instance_destroy()	
+}
+
 

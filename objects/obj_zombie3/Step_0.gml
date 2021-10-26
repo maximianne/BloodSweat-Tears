@@ -8,3 +8,6 @@
 	if(knifeStabs==6){
 		instance_destroy()	
 	}
+	if(bulletHoles=3){
+		instance_destroy()	
+	}

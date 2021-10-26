@@ -1,15 +1,15 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-//if(keyboard_check_pressed(vk_shift)){
-	
-	//if(global.CS==1){ 
-		//global.CS+=1;
+if(keyboard_check_pressed(ord("Q"))){
+	if(global.weaponManager==1){ 
+		global.weaponManager+=1;
 		
-		//instance_destroy(obj_explorer);
-		//instance_create_layer(tx,ty,"player", obj_scientist);
+		instance_destroy(obj_knife);
+		instance_create_layer(tx,ty,"weapons", obj_gun1);
 
-	//}
+	}
+
+	
+	
 	
 	//else if (global.CS==2){ 
 		//global.CS+=1;
@@ -27,5 +27,5 @@
 		//instance_create_layer(tx,ty,"player", obj_explorer);
 
 	//}
-//} 
-	
+ 
+}

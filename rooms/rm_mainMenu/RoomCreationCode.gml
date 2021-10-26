@@ -16,12 +16,15 @@ global.explosiveDamage=0;
 global.nonAutomaticDamage=0;
 global.weaponAccuracy=0;
 global.currency=0;
-global.healthB=10;
+global.healthB=21;
 global.freeWeaponUpgrade=0;
 global.overallDamage=0;
 global.canPickUpRand=false;
 global.sprintAmount=.5;
 global.RawIncreaseHealth=false;
+
+global.weaponManager=1;
+global.bulletsGun1=0;
 
 global.objectsAppearBullets1=0;
 global.objectsAppearHealth=10;

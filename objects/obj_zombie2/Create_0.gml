@@ -11,3 +11,4 @@ allowMove=true;
 moving=false; 
 
 knifeStabs=0;
+bulletHoles=0;

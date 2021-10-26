@@ -12,6 +12,8 @@
     {"id":{"name":"obj_building2RM1","path":"objects/obj_building2RM1/obj_building2RM1.yy",},"order":2,},
     {"id":{"name":"obj_zombie2","path":"objects/obj_zombie2/obj_zombie2.yy",},"order":3,},
     {"id":{"name":"spr_playerU","path":"sprites/spr_playerU/spr_playerU.yy",},"order":6,},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":3,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":2,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":3,},
     {"id":{"name":"rm_customization","path":"rooms/rm_customization/rm_customization.yy",},"order":5,},
     {"id":{"name":"spr_ZombieR","path":"sprites/spr_ZombieR/spr_ZombieR.yy",},"order":4,},
