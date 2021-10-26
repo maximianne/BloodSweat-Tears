@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "mainMenu",
-    "path": "folders/Objects/mainMenu.yy",
+    "name": "main menu",
+    "path": "folders/Objects/main menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_playButton",

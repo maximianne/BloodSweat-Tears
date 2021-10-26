@@ -9,6 +9,7 @@ if(!show_text){
 		a-=0.01;
 	}
 	else{ 
+		instance_activate_all();
 		instance_destroy();
 	}
 }

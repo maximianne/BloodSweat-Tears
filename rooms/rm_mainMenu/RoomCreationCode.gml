@@ -38,3 +38,5 @@ global.playerSpeed=3;
 
 global.wave=1;
 global.zombieAmount=0;
+
+global.healthFound=0;

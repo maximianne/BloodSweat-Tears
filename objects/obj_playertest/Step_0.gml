@@ -13,7 +13,7 @@ if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
 	reduce_health = 0;
 }
-if(global.healthB==-1){
+if(global.healthB==0){
 	room_goto(rm_end)
 }
 

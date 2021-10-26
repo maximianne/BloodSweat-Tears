@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_storylineButton",
-    "path": "sprites/spr_storylineButton/spr_storylineButton.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "mainMenu",
-    "path": "folders/Objects/mainMenu.yy",
+    "name": "health and inventory",
+    "path": "folders/Objects/health and inventory.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_storylineButton",
+  "name": "obj_useHealthFound",
   "tags": [],
   "resourceType": "GMObject",
 }

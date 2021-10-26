@@ -7,3 +7,4 @@ show_text=true;
 x=obj_playertest.x;
 y=obj_playertest.y;
 
+instance_deactivate_all(obj_displayAmount);
