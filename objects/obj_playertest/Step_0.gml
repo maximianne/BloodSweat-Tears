@@ -79,19 +79,19 @@ if(hInput!=0 or vInput!=0){
 	
 	//set sprite
 	switch(dir){ 
-	case 0: sprite_index=spr_playerR; break;
-	case 45: sprite_index=spr_playerRU; break;
-	case 90: sprite_index=spr_playerU; break;
-	case 135: sprite_index=spr_playerLU; break;
-	case 180: sprite_index=spr_playerL; break;
-	case 225: sprite_index=spr_playerLD; break;
-	case 270: sprite_index=spr_playerD; break;
-	case 315: sprite_index=spr_playerRD; break;
+	case 0:  image_angle=0; break;
+	case 45: image_angle=45; break;
+	case 90: image_angle=90; break;
+	case 135: image_angle=135; break;
+	case 180: image_angle=180; break;
+	case 225:image_angle=225; break;
+	case 270: image_angle=270; break;
+	case 315: image_angle=315; break;
 	} 
 	
 } 
 
-else{ 
-	image_index=0;
-}
+	else{ 
+		image_index=0;
+	}
 }

@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_building3RM1",
-    "path": "sprites/spr_building3RM1/spr_building3RM1.yy",
+    "name": "spr_gun1",
+    "path": "sprites/spr_gun1/spr_gun1.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_house",
-    "path": "objects/obj_house/obj_house.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playertest","path":"objects/obj_playertest/obj_playertest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "room1",
-    "path": "folders/Objects/room1.yy",
+    "name": "weapons",
+    "path": "folders/Objects/weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_building3RM1",
+  "name": "obj_handgun",
   "tags": [],
   "resourceType": "GMObject",
 }

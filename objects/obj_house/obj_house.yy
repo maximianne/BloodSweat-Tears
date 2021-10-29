@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_building3RM1",
-    "path": "sprites/spr_building3RM1/spr_building3RM1.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_house",
-    "path": "objects/obj_house/obj_house.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects/room1.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_building3RM1",
+  "name": "obj_house",
   "tags": [],
   "resourceType": "GMObject",
 }

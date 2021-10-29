@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_gun1",
-    "path": "sprites/spr_gun1/spr_gun1.yy",
+    "name": "spr_playerRifle",
+    "path": "sprites/spr_playerRifle/spr_playerRifle.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_playertest",
+    "path": "objects/obj_playertest/obj_playertest.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapons",
-    "path": "folders/Objects/weapons.yy",
+    "name": "character",
+    "path": "folders/Objects/character.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gun1",
+  "name": "obj_playerRIfle",
   "tags": [],
   "resourceType": "GMObject",
 }

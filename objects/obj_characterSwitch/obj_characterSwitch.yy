@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_swordR",
-    "path": "sprites/spr_swordR/spr_swordR.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,16 +19,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapons",
-    "path": "folders/Objects/weapons.yy",
+    "name": "character",
+    "path": "folders/Objects/character.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_knife",
+  "name": "obj_characterSwitch",
   "tags": [],
   "resourceType": "GMObject",
 }

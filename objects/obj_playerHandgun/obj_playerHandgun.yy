@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_building3RM1",
-    "path": "sprites/spr_building3RM1/spr_building3RM1.yy",
+    "name": "spr_playerHandGun",
+    "path": "sprites/spr_playerHandGun/spr_playerHandGun.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_house",
-    "path": "objects/obj_house/obj_house.yy",
+    "name": "obj_playertest",
+    "path": "objects/obj_playertest/obj_playertest.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "room1",
-    "path": "folders/Objects/room1.yy",
+    "name": "character",
+    "path": "folders/Objects/character.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_building3RM1",
+  "name": "obj_playerHandgun",
   "tags": [],
   "resourceType": "GMObject",
 }

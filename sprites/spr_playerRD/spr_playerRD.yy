@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "MainCharacter",
-    "path": "folders/Sprites/MainCharacter.yy",
+    "name": "archive",
+    "path": "folders/Sprites/MainCharacter/archive.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_playerRD",

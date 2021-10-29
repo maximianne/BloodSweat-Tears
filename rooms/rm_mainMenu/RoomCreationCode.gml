@@ -43,3 +43,9 @@ global.wave=1;
 global.zombieAmount=0;
 
 global.healthFound=0;
+
+global.hasHandgun=false;
+global.hasRifle=false;
+global.hasShotgun=false;
+
+global.CS=1;
