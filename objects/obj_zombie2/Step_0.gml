@@ -3,12 +3,8 @@
 
 	spd=5;
 	scr_runPath();
-
-if(knifeStabs==4){
-	instance_destroy()	
-}
-if(bulletHoles==2){
-	instance_destroy()	
+if(lifecount==0){
+	instance_destroy();	
 }
 
 

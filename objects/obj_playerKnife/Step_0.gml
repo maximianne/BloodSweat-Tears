@@ -12,7 +12,7 @@ if(instance_exists(obj_displayAmount)){
 }
 
 else{ 
-
+image_index=0;
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
 	reduce_health = 0;
@@ -94,8 +94,18 @@ if(hInput!=0 or vInput!=0){
 	} 
 	
 } 
-
-	else{ 
-		image_index=0;
+	//else{ 
+	//	imageimage)_index=0;
+	//}
+	
+	if(mouse_check_button(mb_left) && image_index=0){
+		image_index=1;	
+		global.KnifeOut=true;
 	}
+	else if(mouse_check_button(mb_left) && image_index=1){
+		image_index=0;
+		global.KnifeOut=false;
+	}
+	
+	
 }

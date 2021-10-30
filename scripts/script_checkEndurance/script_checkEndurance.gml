@@ -11,18 +11,18 @@ function script_checkEndurance(n){
 	if(n==3){
 		global.damageResistence++;
 		global.healthB=23;
-		global.playerSpeed+=2;
+		global.playerSpeed+=1;
 	}
 	if(n==4){
 		global.damageResistence++;
 		global.healthB=23;
-		global.playerSpeed+=2;
+		global.playerSpeed+=1;
 		global.RawIncreaseHealth=true;
 	}
 	if(n==5){
 		global.damageResistence++;
 		global.healthB=23;
-		global.playerSpeed+=2;
+		global.playerSpeed+=1;
 		global.RawIncreaseHealth=true;
 		global.sprintAmount+=.5;
 	}

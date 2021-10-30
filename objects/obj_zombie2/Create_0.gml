@@ -10,5 +10,4 @@ spd=5;
 allowMove=true; 
 moving=false; 
 
-knifeStabs=0;
-bulletHoles=0;
+lifecount=4;

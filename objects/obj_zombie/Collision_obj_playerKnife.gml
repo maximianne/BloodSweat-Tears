@@ -1,10 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-	spd=4;	
-	scr_runPath();
-
-if(lifecount==0){
-	instance_destroy();	
+if(global.KnifeOut==true){
+	lifecount--;	
 }
