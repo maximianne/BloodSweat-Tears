@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput= keyboard_check(ord("S")) - keyboard_check(ord("W"));
 

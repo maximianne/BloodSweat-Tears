@@ -3,7 +3,8 @@ function scr_pickPath() {
 	path_end();
 
 	moving=false;
-	if(instance_exists(obj_playertest)){ 
+	if(instance_exists(obj_playertest)){
+		
 		mytarget=obj_playertest;
 	}
 
