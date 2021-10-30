@@ -18,17 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "room1",
-    "path": "folders/Objects/room1.yy",
+    "name": "health and inventory",
+    "path": "folders/Objects/health and inventory.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_test",
+  "name": "obj_health2",
   "tags": [],
   "resourceType": "GMObject",
 }

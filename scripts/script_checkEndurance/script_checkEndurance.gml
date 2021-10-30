@@ -6,22 +6,22 @@ function script_checkEndurance(n){
 	}
 	if(n==2){
 		global.damageResistence++;
-		global.healthB++;
+		global.healthB=23;
 	}
 	if(n==3){
 		global.damageResistence++;
-		global.healthB++;
+		global.healthB=23;
 		global.playerSpeed+=2;
 	}
 	if(n==4){
 		global.damageResistence++;
-		global.healthB++;
+		global.healthB=23;
 		global.playerSpeed+=2;
 		global.RawIncreaseHealth=true;
 	}
 	if(n==5){
 		global.damageResistence++;
-		global.healthB++;
+		global.healthB=23;
 		global.playerSpeed+=2;
 		global.RawIncreaseHealth=true;
 		global.sprintAmount+=.5;
