@@ -3,10 +3,10 @@
 // You can write your code in this editor
 if(mouse_check_button(mb_left) and global.bulletsGun1>0){
     repeat(1){
-	newBullet=instance_create_layer(obj_playerHandgun.x,obj_playerHandgun.y,"bullet",obj_bulletFired);
-    direction = obj_playerHandgun.image_angle;
-	image_angle = direction;
-    newBullet.speed=irandom_range(obj_playerHandgun.speed+3 ,obj_player.speed+6);
+	newBullet=instance_create_layer(obj_playerHandgun.x+30, obj_playerHandgun.y,"bullet",obj_bulletFired);
+    newBullet.direction = image_angle;
+	newBullet.image_angle=image_angle;
+    newBullet.speed=irandom_range(global.playerSpeed+3 ,global.playerSpeed+6);
 	global.bulletsGun1-=1;
 	}
 }

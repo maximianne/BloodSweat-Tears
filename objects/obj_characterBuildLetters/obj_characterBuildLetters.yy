@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_luck",
-    "path": "sprites/spr_luck/spr_luck.yy",
+    "name": "spr_characterBuildLetters",
+    "path": "sprites/spr_characterBuildLetters/spr_characterBuildLetters.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "descriptionButtons",
-    "path": "folders/Objects/customization room /descriptionButtons.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_luck",
+  "name": "obj_characterBuildLetters",
   "tags": [],
   "resourceType": "GMObject",
 }

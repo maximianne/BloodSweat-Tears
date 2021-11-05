@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "customization room ",
-    "path": "folders/Objects/customization room .yy",
+    "name": "descriptionButtons",
+    "path": "folders/Objects/customization room /descriptionButtons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cognizance",

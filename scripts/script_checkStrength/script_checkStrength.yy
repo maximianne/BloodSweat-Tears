@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Character Build",
-    "path": "folders/Scripts/Character Build.yy",
+    "name": "Path",
+    "path": "folders/Scripts/Path.yy",
   },
   "resourceVersion": "1.0",
   "name": "script_checkStrength",
