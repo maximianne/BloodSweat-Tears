@@ -7,9 +7,10 @@ if(keyboard_check_pressed(ord("Q"))){
 		global.CS+=1;
 		tx=obj_playerKnife.x; 
 		ty=obj_playerKnife.y;
+		dirTrack=obj_playerKnife.image_angle;
 		instance_destroy(obj_playerKnife);
-		instance_create_layer(tx,ty,"player", obj_playerHandgun);
-
+		player =instance_create_layer(tx,ty,"player", obj_playerHandgun);
+		player.direction=dirTrack;
 	}
 	
 	else if(global.CS==1 && global.hasRifle==true){ 
