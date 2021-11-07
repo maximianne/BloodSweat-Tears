@@ -3,7 +3,7 @@
     "name": "spr_building4RM1",
     "path": "sprites/spr_building4RM1/spr_building4RM1.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
