@@ -5,14 +5,14 @@
 //if(hoverS){
     draw_set_color(c_gray);
 	draw_set_font(ft_customize3)
-	draw_roundrect_ext(145,70,409+10,195+10,30,30,0);
+	draw_roundrect_ext(795+30,70-20,1138+10,195+10-20,30,30,0);
 	draw_set_color(c_white);
-	draw_roundrect_ext(145,70,409+10,195+10,30,30,1);
-	draw_text(145,53, "The strength perk can enhance:");
-	draw_text(145+4,54+20+10, "The players ability to withstand");
-	draw_text(145+4,54+40+10, "damage from enemies, their control");
-	draw_text(145+4,54+60+10, "over various weapons, as well as");
-	draw_text(145+4,54+80+10, "their over all carrying capacity");	
-	draw_text(145+4,54+80+10+30, "Use up to 5 points!");
+	draw_roundrect_ext(795+30,70-20,1138+10,195+10-20,30,30,1);
+	draw_text(795+30,59-20, "The cognizance perk can enhance:");
+	draw_text(795+4+ 30,54+20+10-20, "The players ability to handle");
+	draw_text(795+30+4,54+40+10-20, "firearms, explosives and overall");
+	draw_text(795+4+30,54+60+10-20, "be EXTRA aware of your surroundings.");
+	draw_text(795+4+30,54+80+10-20, " ");	
+	draw_text(795+4+30,54+80+10+30-20, "Use up to 5 points!");
 	
  
