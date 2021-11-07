@@ -9,6 +9,7 @@ goalY=(irandom(room_height) div cell_size)* cell_size+cell_size/2;
 spd=4; 
 allowMove=true; 
 moving=false; 
-
+bounce = false;
+onPlayer=false;
 lifecount=2;
 

@@ -10,4 +10,13 @@ if(lifecount==0){
 	instance_destroy();	
 }
 
+if(onPlayer == true && bounce ==true){
+	
+	
+	direction += 180;
+	alarm[2] = room_speed*0.5;
+	
+	
+}
+
 
