@@ -27,7 +27,7 @@ global.weaponManager=1;
 global.bulletsGun1=0;
 
 global.objectsAppearBullets1=0;
-global.objectsAppearHealth=10;
+global.objectsAppearHealth=0;
 global.currencyAppears=0;
 global.zombieSpeed=0;
 //intelligence level 5

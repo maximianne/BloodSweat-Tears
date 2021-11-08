@@ -7,44 +7,44 @@ if(global.wave==1 && Currency1>0){
 	}
 }
 if(global.wave==2){
-		if(Health2>0){ 
+		if(Currency2>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health2--;
+		Currency2--;
 	}
 }
 if(global.wave==3){
-		if(Health3>0){ 
+		if(Currency3>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health3--;
+		Currency3--;
 	}
 }
 if(global.wave==4){
-		if(Health4>0){ 
+		if(Currency4>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health4--;
+		Currency4--;
 	}
 }
 if(global.wave==5){
-		if(Health15>0){ 
+		if(Currency5>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health15--;
+		Currency5--;
 	}
 }
 if(global.wave==6){
-		if(Health6>0){ 
+		if(Currency6>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health6--;
+		Currency6--;
 	}
 }
 if(global.wave==7){
-		if(Health7>0){ 
+		if(Currency7>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health7--;
+		Currency7--;
 	}
 }
 if(global.wave==8){
-		if(Health8>0){ 
+		if(Currency8>0){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_currency);
-		Health8--;
+		Currency8--;
 	}
 }

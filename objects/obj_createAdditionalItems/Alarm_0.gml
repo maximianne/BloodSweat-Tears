@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //bullets appearing 
-if(global.wave==1 && Bullets1>0){
+if(global.wave==1 && !Bullets1==0){
 	repeat(1){ 
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_bullet);
 		Bullets1--;

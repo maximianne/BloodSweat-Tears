@@ -4,7 +4,7 @@
 //healthAppearing
 
 if(global.wave==1){
-	if(Health1>0){
+	if(Health1!=0){
 		instance_create_layer(random(room_width), random(room_height),"weapons", obj_healthPack);
 		Health1--;
 	}

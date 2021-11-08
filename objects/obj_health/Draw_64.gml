@@ -24,5 +24,5 @@ draw_set_color(c_black);
 draw_roundrect_ext(1215,58,1245+100,58+30,20,20,0);
 draw_set_color(c_white);
 draw_roundrect_ext(1215,58,1245+100,58+30,20,20,1);
-draw_sprite(spr_currency, 0, 1220 , 60);
+draw_sprite(spr_currency, 0, 1225 , 65);
 draw_text(1250, 60, "Caps: " + string(global.currency)); 

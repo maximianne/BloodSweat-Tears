@@ -146,6 +146,7 @@
     {"id":{"name":"object_display","path":"objects/object_display/object_display.yy",},"order":9,},
     {"id":{"name":"obj_chooseHealth","path":"objects/obj_chooseHealth/obj_chooseHealth.yy",},"order":7,},
     {"id":{"name":"spr_playerKnife","path":"sprites/spr_playerKnife/spr_playerKnife.yy",},"order":2,},
+    {"id":{"name":"obj_currency2","path":"objects/obj_currency2/obj_currency2.yy",},"order":10,},
     {"id":{"name":"script_checkAgility","path":"scripts/script_checkAgility/script_checkAgility.yy",},"order":0,},
     {"id":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},"order":0,},
   ],

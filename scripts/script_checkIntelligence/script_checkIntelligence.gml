@@ -3,25 +3,25 @@
 function script_checkIntelligence(n){
 
 	if(n==1){
-		global.objectsAppearHealth+=4;
+		global.objectsAppearHealth+=2;
 	}
 	if(n==2){
-		global.objectsAppearHealth+=4;
+		global.objectsAppearHealth+=2;
 		global.zombieSpeed--;
 	}
 	if(n==3){
-		global.objectsAppearHealth+=4;
+		global.objectsAppearHealth+=2;
 		global.zombieSpeed--;
 		global.canPickUpRand=true;
 	}
 	if(n==4){
-		global.objectsAppearHealth+=4;
+		global.objectsAppearHealth+=2;
 		global.zombieSpeed--;
 		global.canPickUpRand=true;
 		global.freeWeaponUpgrade++;
 	}
 	if(n==5){
-		global.objectsAppearHealth+=4;
+		global.objectsAppearHealth+=2;
 		global.zombieSpeed--;
 		global.canPickUpRand=true;
 		global.freeWeaponUpgrade++;
