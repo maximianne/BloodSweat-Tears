@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(on_wall == false){
+if(on_player == false){
 	direction += 180;
-	alarm[0] = room_speed*0.5;
+	alarm[2] = room_speed*0.5;
 	bounce = true;
-	on_wall = true;
+	on_player = true;
 }

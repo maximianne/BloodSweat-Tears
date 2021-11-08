@@ -1,14 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-path=path_add(); 
-
-cell_size=16; 
-goalX=(irandom(room_width) div cell_size)* cell_size+cell_size/2;
-goalY=(irandom(room_height) div cell_size)* cell_size+cell_size/2;
-
-spd=6; 
-allowMove=true; 
-moving=false; 
+direction = point_direction(x, y, obj_playertest.x, obj_playertest.y);
+speed = 4;
 bounce = false;
-onPlayer=false;
-lifecount=8;
+on_wall = false;
+alarm[1] = room_speed*3;
+on_player = false;
+on_enemy = false;
+lifecount=6;

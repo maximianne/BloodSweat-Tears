@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 if(x!=xprevious or y!=xprevious){ 
 	
 	switch(point_direction(xprevious, yprevious, x,y) +45) div 45 {
@@ -12,6 +10,5 @@ if(x!=xprevious or y!=xprevious){
 	case 6: sprite_index=spr_ZombieLD; break;
 	case 7: sprite_index=spr_ZombieD; break;
 	case 0: sprite_index=spr_ZombieRD; break;
-	} 
-	 
+	}  
 }

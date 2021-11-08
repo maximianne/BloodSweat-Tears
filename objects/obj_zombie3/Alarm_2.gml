@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
-bounce=false;
-	onPlayer=false;
+bounce = false;
+on_player = false;

@@ -13,11 +13,11 @@ function scr_pickPath() {
 	
 
 
-	if(x==goalX and y==goalY and bounce==false and onPlayer==true){ 
+	if(x==goalX and y==goalY){ 
 		allowMove=false;
 		moving=false;
-		bounce=true;
-		onPlayer=true;
+		//bounce=true;
+		//onPlayer=true;
 	}
 	else{
 		allowMove=true;
