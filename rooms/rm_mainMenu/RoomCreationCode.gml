@@ -55,3 +55,5 @@ global.KnifeOut=false;
 global.handgunAccuracy=0;
 global.handgunDamage=0;
 global.hangunRateofFire=1;
+
+global.knifePercent=100;

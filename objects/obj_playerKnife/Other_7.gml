@@ -1,3 +1,2 @@
 /// @description Insert description here
-
-		global.KnifeOut=false;
+global.KnifeOut=false;
