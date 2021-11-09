@@ -6,5 +6,7 @@
 	alarm[2] = room_speed*0.5;
 	bounce = true;
 	on_player = true;
-	lifecount--;	
+	if(global.KnifeOut==true){
+		lifecount--;	
+	}	
 }

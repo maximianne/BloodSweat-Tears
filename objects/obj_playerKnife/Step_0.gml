@@ -94,18 +94,8 @@ if(hInput!=0 or vInput!=0){
 	} 
 	
 } 
-	//else{ 
-	//	imageimage)_index=0;
-	//}
-	
 	if(mouse_check_button(mb_left) && image_index=0){
 		image_index=1;	
 		global.KnifeOut=true;
 	}
-	else if(mouse_check_button(mb_left) && image_index=1){
-		image_index=0;
-		global.KnifeOut=false;
-	}
-	
-	
 }

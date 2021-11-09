@@ -5,4 +5,4 @@ on_wall = false;
 alarm[1] = room_speed*3;
 on_player = false;
 on_enemy = false;
-lifecount=8;
+lifecount=6;

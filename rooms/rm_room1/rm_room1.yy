@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_createAdditionalItems","path":"objects/obj_createAdditionalItems/obj_createAdditionalItems.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":1344.0,"resourceVersion":"1.0","name":"inst_5739241A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_upgradeWeapons","path":"objects/obj_upgradeWeapons/obj_upgradeWeapons.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2432.0,"y":768.0,"resourceVersion":"1.0","name":"inst_510CAF51","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"bullet","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"weapons","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -66,6 +67,7 @@
     {"name":"inst_2A32D7B","path":"rooms/rm_room1/rm_room1.yy",},
     {"name":"inst_5739241A","path":"rooms/rm_room1/rm_room1.yy",},
     {"name":"inst_21AFDDDF","path":"rooms/rm_room1/rm_room1.yy",},
+    {"name":"inst_510CAF51","path":"rooms/rm_room1/rm_room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

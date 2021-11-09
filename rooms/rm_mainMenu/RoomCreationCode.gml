@@ -49,3 +49,9 @@ global.hasRifle=false;
 global.hasShotgun=false;
 
 global.CS=1;
+
+global.KnifeOut=false;
+
+global.handgunAccuracy=0;
+global.handgunDamage=0;
+global.hangunRateofFire=1;

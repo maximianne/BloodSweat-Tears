@@ -1,4 +1,3 @@
 global.cameraExist=true;
-
+global.waveStart=true;
 //script_checkStrength();
-global.KnifeOut=false;

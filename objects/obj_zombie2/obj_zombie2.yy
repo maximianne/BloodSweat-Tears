@@ -3,7 +3,7 @@
     "name": "spr_ZombieD",
     "path": "sprites/spr_ZombieD/spr_ZombieD.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
