@@ -1,8 +1,8 @@
 
 if(alarm[0]==-1 ){
 	whichWave(global.wave);
-	x = irandom_range(97,547);
-	y= irandom_range(4,351)
+	x = 200;
+	y= 200;
 
 	if(global.wave==1){
 		zombieType=1;	

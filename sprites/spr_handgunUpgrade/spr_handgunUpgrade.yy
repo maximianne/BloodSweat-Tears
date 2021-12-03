@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"049475db-a6ea-470e-b168-af9cf27172bb","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"049475db-a6ea-470e-b168-af9cf27172bb","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"LayerId":{"name":"5627fae2-dd11-4169-a585-b7d7a4ed9300","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_handgunUpgrade","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"resourceVersion":"1.0","name":"049475db-a6ea-470e-b168-af9cf27172bb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"123507a8-9313-4f22-9507-28cd284b4d92","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"123507a8-9313-4f22-9507-28cd284b4d92","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"LayerId":{"name":"886887be-2d15-4588-9662-6f419645b258","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_handgunUpgrade","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"resourceVersion":"1.0","name":"123507a8-9313-4f22-9507-28cd284b4d92","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_handgunUpgrade","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"02f5b41c-eeb1-49aa-bb49-86991b92947a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"049475db-a6ea-470e-b168-af9cf27172bb","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"5a078328-954f-4295-b4f1-815f31f8f530","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"123507a8-9313-4f22-9507-28cd284b4d92","path":"sprites/spr_handgunUpgrade/spr_handgunUpgrade.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5627fae2-dd11-4169-a585-b7d7a4ed9300","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"886887be-2d15-4588-9662-6f419645b258","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "weapons",
+    "path": "folders/Sprites/weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_handgunUpgrade",

@@ -13,6 +13,7 @@ if(instance_exists(obj_displayAmount)){
 
 else{ 
 image_index=0;
+
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
 	reduce_health = 0;
@@ -21,19 +22,6 @@ if(global.healthB==0){
 	room_goto(rm_end)
 }
 
-//if(keyboard_check_pressed(vk_shift)){
-//	boost=3;
-//}
-//if(!keyboard_check_pressed(vk_shift)){ 
-//	boost=0;
-//}
-
-//if(place_meeting(x,y,obj_roughTerrainRM1)){
-//	spd=rspd+boost;
-//}
-//if(!place_meeting(x,y,obj_roughTerrainRM1)){
-//	spd=sped+boost;
-//}
 
 if(hInput!=0 or vInput!=0){
 
@@ -103,10 +91,6 @@ if(hInput!=0 or vInput!=0){
 	if(mouse_check_button_released(mb_left)){
 		image_index=0;
 		global.KnifeOut=false;
+		global.knifePercent--;
 	}
-	
-	//if(mouse_check_button(mb_left) && image_index=1){
-	//	image_index=0;	
-	//	global.KnifeOut=false;
-	//}
 }

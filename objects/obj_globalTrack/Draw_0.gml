@@ -4,9 +4,9 @@
 draw_set_color(c_black);
 draw_set_font(ft_customize4)
 
-draw_text(185,190,string(global.handgunAccuracy));
+draw_text(185,190,string(global.handgunMag));
 
-draw_text(210,537, string(global.hangunRateofFire)); 
+draw_text(210,537, string(global.handgunRateOfFire)); 
 
 draw_text(1165,318, string(global.handgunDamage)); 
 
