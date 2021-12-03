@@ -5,6 +5,13 @@
 hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput= keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+magSize=global.handgunMag;
+
+if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>magSize){
+		reloadAmount+=magSize;
+		global.bulletsGun1-=5;
+	}
+
 if(instance_exists(obj_displayAmount)){
 	speed=0;
 }
@@ -96,10 +103,17 @@ if(hInput!=0 or vInput!=0){
 	else{ 
 		image_index=0;
 	}
+	
 }
 
-if(alarm[1]==-1){ 
-//was 10, trying to make it faster
-alarm[1]=20;
-}
 
+
+	//if(reloadAmount==0){
+
+		
+
+	
+	if(alarm[1]==-1){ 
+	//was 10, trying to make it faster
+	alarm[1]=20;
+	}

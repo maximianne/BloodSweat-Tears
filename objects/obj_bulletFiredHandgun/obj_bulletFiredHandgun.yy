@@ -28,7 +28,7 @@
     "path": "folders/Objects/weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bulletFired",
+  "name": "obj_bulletFiredHandgun",
   "tags": [],
   "resourceType": "GMObject",
 }
