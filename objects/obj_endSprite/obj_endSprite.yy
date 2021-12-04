@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "z",
+    "path": "folders/Objects/z.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_endSprite",

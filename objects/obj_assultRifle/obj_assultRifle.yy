@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_gun2",
+    "path": "sprites/spr_gun2/spr_gun2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects/weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rifle",
+  "name": "obj_assultRifle",
   "tags": [],
   "resourceType": "GMObject",
 }

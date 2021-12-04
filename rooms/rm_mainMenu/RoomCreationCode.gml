@@ -37,7 +37,7 @@ global.healthFound=0;
 
 //weapons
 global.hasHandgun=false;
-global.hasRifle=false;
+global.hasAssultRifle=false;
 global.hasShotgun=false;
 global.weaponManager=1
 

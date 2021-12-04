@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "room1",
-    "path": "folders/Objects/room1.yy",
+    "name": "room",
+    "path": "folders/Objects/room.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_back",
