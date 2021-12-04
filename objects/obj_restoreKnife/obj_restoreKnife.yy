@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapon upgrade",
-    "path": "folders/Objects/weapon upgrade.yy",
+    "name": "knife",
+    "path": "folders/Objects/weapons/knife.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_restoreKnife",

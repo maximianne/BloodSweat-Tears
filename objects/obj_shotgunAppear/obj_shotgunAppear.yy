@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapon upgrade",
-    "path": "folders/Objects/weapon upgrade.yy",
+    "name": "shotgun",
+    "path": "folders/Objects/weapons/shotgun.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_shotgunAppear",

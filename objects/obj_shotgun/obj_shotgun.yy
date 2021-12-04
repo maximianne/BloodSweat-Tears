@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapons",
-    "path": "folders/Objects/weapons.yy",
+    "name": "shotgun",
+    "path": "folders/Objects/weapons/shotgun.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_shotgun",

@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "assult rifle",
-    "path": "folders/Objects/weapon upgrade/assult rifle.yy",
+    "path": "folders/Objects/weapons/assult rifle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_increReloadSpeedAR",

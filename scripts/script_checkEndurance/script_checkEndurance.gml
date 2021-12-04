@@ -24,6 +24,6 @@ function script_checkEndurance(n){
 		global.healthB=23;
 		global.playerSpeed+=1;
 		global.RawIncreaseHealth=true;
-		global.sprintAmount+=.5;
+		global.sprintAmountIncrease+=.5;
 	}
 }

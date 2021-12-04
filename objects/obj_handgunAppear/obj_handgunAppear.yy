@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapon upgrade",
-    "path": "folders/Objects/weapon upgrade.yy",
+    "name": "hand gun",
+    "path": "folders/Objects/weapons/hand gun.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_handgunAppear",

@@ -16,7 +16,7 @@ function script_checkLuck(n){
 	}
 	if(n==4){
 		global.objectsAppearBullets1=4;
-	global.objectsAppearHealth+=1;
+		global.objectsAppearHealth+=1;
 		global.currencyAppears=10;
 		global.zombiesExplode=true;
 	}

@@ -6,24 +6,24 @@ function script_checkCognizance(n){
 	}
 	if(n==2){
 		global.explosiveDamage+=6;
-		global.nonAutomaticDamage+=2;
+		global.shotgunDamage+=2;
 	}
 	if(n==3){
 		global.explosiveDamage+=6;
-		global.nonAutomaticDamage+=2;
-		global.freeWeaponUpgrade++;
+		global.shotgunDamage+=2;
+		global.freeWeaponUpgrade=true;
 	}
 	if(n==4){
 		global.explosiveDamage+=6;
-		global.nonAutomaticDamage+=2;
-		global.freeWeaponUpgrade++;
-		global.weaponAccuracy++;
+		global.shotgunDamage+=2;
+		global.freeWeaponUpgrade=true;
+		global.weaponAccuracy=true;
 	}
 	if(n==5){
 		global.explosiveDamage+=6;
-		global.nonAutomaticDamage+=2;
-		global.freeWeaponUpgrade++;
-		global.weaponAccuracy++;
+		global.shotgunDamage+=2;
+		global.freeWeaponUpgrade=true;
+		global.weaponAccuracy=true;
 		global.currencyAppears+=5;
 	}
 }

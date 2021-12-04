@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bulletSG",
+    "path": "sprites/spr_bulletSG/spr_bulletSG.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":3,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "name": "shotgun",
+    "path": "folders/Objects/weapons/shotgun.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_grid",
+  "name": "obj_bulletFiredShotgun",
   "tags": [],
   "resourceType": "GMObject",
 }

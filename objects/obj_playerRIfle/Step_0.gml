@@ -9,6 +9,17 @@ if(instance_exists(obj_displayAmount)){
 	speed=0;
 }
 
+if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>global.assultRifleMag){
+	alarm[0]=room_speed*global.assultRifleReloadSpeed;
+	}
+	
+if(alarm[1]==-1){ 
+	//was 10, trying to make it faster
+	alarm[1]=room_speed*1.5;
+	}
+
+
+
 else{ 
 
 if(reduce_health >= 3){

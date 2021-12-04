@@ -6,30 +6,24 @@ function script_checkStrength(n){
 	}
 	if(n==2){
 		global.knifeDamage+=2;
-		global.automaticDamage+=2;
+		global.assultRifleDamage+=2;
 	}
 	if(n==3){
 		global.knifeDamage+=2;
-		global.automaticDamage+=2;
-		if(global.inventory<7){
-			global.inventory++;
-		}
+		global.assultRifleDamage+=2;
+		global.canCarryExtraWeapon=true;
 	}
 	if(n==4){
 		global.knifeDamage+=2;
 		global.automaticDamage+=2;
-		if(global.inventory<7){
-			global.inventory++;
-		}
-		global.damageResistence+=2;
+		global.canCarryExtraWeapon=true;
+		global.damageResistence=true;
 	}
 	if(n==5){
 		global.knifeDamage+=2;
 		global.automaticDamage+=2;
-		if(global.inventory<7){
-			global.inventory++;
-		}
-		global.damageResistence+=2;
+		global.canCarryExtraWeapon=true;
+		global.damageResistence=true;
 		global.sprintDamage=true;
 	}
 }

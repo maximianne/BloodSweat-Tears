@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapon upgrade",
-    "path": "folders/Objects/weapon upgrade.yy",
+    "name": "assult rifle",
+    "path": "folders/Objects/weapons/assult rifle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_assultRifleAppear",

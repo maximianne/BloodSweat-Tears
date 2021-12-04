@@ -22,7 +22,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "hand gun",
-    "path": "folders/Objects/weapon upgrade/hand gun.yy",
+    "path": "folders/Objects/weapons/hand gun.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_accuracyHG",

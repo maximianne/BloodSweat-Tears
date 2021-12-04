@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "shotgun",
-    "path": "folders/Objects/weapon upgrade/shotgun.yy",
+    "path": "folders/Objects/weapons/shotgun.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_increFiresPerRound",

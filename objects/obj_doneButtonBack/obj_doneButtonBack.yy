@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapon upgrade",
-    "path": "folders/Objects/weapon upgrade.yy",
+    "name": "weapons",
+    "path": "folders/Objects/weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_doneButtonWU89",
+  "name": "obj_doneButtonBack",
   "tags": [],
   "resourceType": "GMObject",
 }

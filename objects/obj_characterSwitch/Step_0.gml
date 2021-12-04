@@ -26,7 +26,6 @@ if(keyboard_check_pressed(ord("Q"))){
 		ty=obj_playerKnife.y;
 		instance_destroy(obj_playerKnife);
 		instance_create_layer(tx,ty,"player", obj_playerShotgun);
-
 	}
 	
 	else if(global.CS==2 && global.hasShotgun==true){ 

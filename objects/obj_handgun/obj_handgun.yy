@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "weapons",
-    "path": "folders/Objects/weapons.yy",
+    "name": "hand gun",
+    "path": "folders/Objects/weapons/hand gun.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_handgun",

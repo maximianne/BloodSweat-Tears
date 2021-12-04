@@ -1,13 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
+
 hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput= keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 if(instance_exists(obj_displayAmount)){
 	speed=0;
 }
+
+if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>global.shotgunFiresPerRound){
+	alarm[0]=room_speed*global.shotgunReloadSpeed;
+	}
+	
+if(alarm[1]==-1){ 
+	//was 10, trying to make it faster
+	alarm[1]=room_speed;
+	}
 
 else{ 
 
@@ -18,20 +24,6 @@ if(reduce_health >= 3){
 if(global.healthB==0){
 	room_goto(rm_end)
 }
-
-//if(keyboard_check_pressed(vk_shift)){
-//	boost=3;
-//}
-//if(!keyboard_check_pressed(vk_shift)){ 
-//	boost=0;
-//}
-
-//if(place_meeting(x,y,obj_roughTerrainRM1)){
-//	spd=rspd+boost;
-//}
-//if(!place_meeting(x,y,obj_roughTerrainRM1)){
-//	spd=sped+boost;
-//}
 
 if(hInput!=0 or vInput!=0){
 
