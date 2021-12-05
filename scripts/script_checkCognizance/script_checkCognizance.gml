@@ -11,18 +11,18 @@ function script_checkCognizance(n){
 	if(n==3){
 		global.explosiveDamage+=6;
 		global.shotgunDamage+=2;
-		global.freeWeaponUpgrade=true;
+		global.freeWeaponUpgrade++;
 	}
 	if(n==4){
 		global.explosiveDamage+=6;
 		global.shotgunDamage+=2;
-		global.freeWeaponUpgrade=true;
+		global.freeWeaponUpgrade++;
 		global.weaponAccuracy=true;
 	}
 	if(n==5){
 		global.explosiveDamage+=6;
 		global.shotgunDamage+=2;
-		global.freeWeaponUpgrade=true;
+		global.freeWeaponUpgrade++;
 		global.weaponAccuracy=true;
 		global.currencyAppears+=5;
 	}

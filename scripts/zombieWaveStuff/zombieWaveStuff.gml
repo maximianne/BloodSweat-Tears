@@ -2,31 +2,31 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function zombieWaveStuff(num){
 if(num==1){
-	healthpoints=5;
-	speed = 3;
+	healthpoints=3;
+	speed = 2;
 }
 if(num==2){
-	healthpoints=10;
+	healthpoints=6;
 	speed = 3;
 }
 if(num==3){
-	healthpoints=15;
+	healthpoints=12;
 	speed = 3.5;
 }
 if(num==4){
-	healthpoints=20;
+	healthpoints=18;
 	speed = 4;
 }
 if(num==5){
-	healthpoints=25;
+	healthpoints=22;
 	speed = 4;
 }
 if(num==6){
-	healthpoints=30;
+	healthpoints=28;
 	speed = 4.5;
 }
 if(num==7){
-	healthpoints=35;
+	healthpoints=34;
 	speed = 5;
 }
 if(num==8){

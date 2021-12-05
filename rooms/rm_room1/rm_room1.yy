@@ -13,7 +13,9 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_2","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ifPlayerDied","path":"objects/obj_ifPlayerDied/obj_ifPlayerDied.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":768.0,"resourceVersion":"1.0","name":"inst_56594CE0","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_characterSwitch","path":"objects/obj_characterSwitch/obj_characterSwitch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2310.0,"y":725.0,"resourceVersion":"1.0","name":"inst_3383D834","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_playerKnife","path":"objects/obj_playerKnife/obj_playerKnife.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":770.0,"y":1382.0,"resourceVersion":"1.0","name":"inst_7D5519DD","tags":[],"resourceType":"GMRInstance",},
@@ -71,6 +73,7 @@
     {"name":"inst_12D21D6A","path":"rooms/rm_room1/rm_room1.yy",},
     {"name":"inst_57709B69","path":"rooms/rm_room1/rm_room1.yy",},
     {"name":"inst_59FE9950","path":"rooms/rm_room1/rm_room1.yy",},
+    {"name":"inst_56594CE0","path":"rooms/rm_room1/rm_room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

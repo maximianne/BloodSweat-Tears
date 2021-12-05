@@ -132,7 +132,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ft_customizeINTRO",
+  "name": "ft_customizeEND",
   "tags": [],
   "resourceType": "GMFont",
 }

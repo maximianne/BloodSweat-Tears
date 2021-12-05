@@ -25,6 +25,6 @@ function script_checkLuck(n){
 		global.objectsAppearHealth+=1;
 		global.currencyAppears=10;
 		global.zombiesExplode=true;
-		global.overallDamage++;
+		global.overallDamage+=.2;
 	}
 }

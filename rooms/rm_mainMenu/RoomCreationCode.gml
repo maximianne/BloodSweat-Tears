@@ -1,6 +1,6 @@
 global.cameraExist=false;
+audio_play_sound(musicINTRO, 100, true);
 
-audio_play_sound(music, 100, true);
 
 //character build
 global.strength=0;
@@ -12,17 +12,17 @@ global.intelligence=0;
 
 //strength 
 global.canCarryExtraWeapon=false;
-global.damageResistence=false;
+global.damageResistence=1;
 global.sprintDamage=false;
 
 //cognizance 
 global.explosiveDamage=0;
-global.freeWeaponUpgrade=false;
+global.freeWeaponUpgrade=0;
 global.weaponAccuracy=false;
 global.currencyAppears=0;
 
 //endurance 
-global.damageResistence=2;
+global.damageResistence=.5;
 global.healthB=21;
 global.playerSpeed=3;
 global.RawIncreaseHealth=false;
@@ -66,8 +66,8 @@ global.bulletsGun1=0;
 
 //shotgunUpgrade
 global.shotgunFiresPerRound=2;
-global.shotgunReloadSpeed=5;
-global.shotgunDamage=5;
+global.shotgunReloadSpeed=1;
+global.shotgunDamage=6;
 
 //assultRifleUpgrade
 global.assultRifleMag=25;
@@ -77,3 +77,6 @@ global.assultRifleDamage=8;
 //knife info
 global.knifePercent=100;
 global.knifeDamage=1;
+
+//end screen
+global.playerIsDead=false;

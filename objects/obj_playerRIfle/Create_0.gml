@@ -7,3 +7,6 @@ reloadAmount=0;
 invincible=false;
 
 rspd=2;
+
+canSprint=true;
+sprintAmount=.2+global.sprintAmountIncrease;

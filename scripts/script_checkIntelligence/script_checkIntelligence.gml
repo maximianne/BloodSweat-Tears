@@ -7,24 +7,24 @@ function script_checkIntelligence(n){
 	}
 	if(n==2){
 		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease++;
+		global.zombieSpeedDecrease+=.2;
 	}
 	if(n==3){
 		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease++;
+		global.zombieSpeedDecrease+=.2;
 		global.canPickUpRand=true;
 	}
 	if(n==4){
 		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease++;
+		global.zombieSpeedDecrease+=.2;
 		global.canPickUpRand=true;
-		global.freeWeaponUpgrade=true;
+		global.freeWeaponUpgrade++;
 	}
 	if(n==5){
 		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease++;
+		global.zombieSpeedDecrease+=.2;
 		global.canPickUpRand=true;
-		global.freeWeaponUpgrade=true;
+		global.freeWeaponUpgrade++;
 		global.takeBullets=true;
 	}
 }
