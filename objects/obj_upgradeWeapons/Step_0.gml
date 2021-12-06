@@ -20,3 +20,6 @@ if(global.wave==8){
 	room_goto(rm_endWin);	
 }
 
+if(keyboard_check_pressed(vk_enter)){
+	game_restart();
+}
