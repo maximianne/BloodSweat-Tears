@@ -60,13 +60,13 @@ global.wave=1;
 global.zombieAmount=0;
 
 //handGunUpgrade
-global.handgunRateOfFire=1;
+global.handgunRateOfFire=20;
 global.handgunDamage=1;
 global.handgunMag=5;
 global.bulletsGun1=0;
 
 //shotgunUpgrade
-global.shotgunFiresPerRound=2;
+global.shotgunFiresPerRound=25;
 global.shotgunReloadSpeed=1;
 global.shotgunDamage=6;
 

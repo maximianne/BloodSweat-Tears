@@ -91,7 +91,7 @@ if(hInput!=0 or vInput!=0){
 	}
 	
 	if(alarm[1]==-1){ 
-		alarm[1]=20;
+		alarm[1]=global.handgunRateOfFire;
 	}	
 }
 
@@ -178,7 +178,7 @@ if(hInput!=0 or vInput!=0){
 	}
 	
 if(alarm[1]==-1){ 
-//was 10, trying to make it faster
-	alarm[1]=20;
+//was 10, trng to make it faster
+	alarm[1]=global.handgunRateOfFire;
 }
 }

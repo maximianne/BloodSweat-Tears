@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_doneButton",
-    "path": "sprites/spr_doneButton/spr_doneButton.yy",
+    "name": "spr_buttonPlayAgain",
+    "path": "sprites/spr_buttonPlayAgain/spr_buttonPlayAgain.yy",
   },
   "solid": false,
   "visible": true,

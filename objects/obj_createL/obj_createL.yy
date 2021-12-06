@@ -27,7 +27,7 @@
     "path": "folders/Objects/room/end.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_create",
+  "name": "obj_createL",
   "tags": [],
   "resourceType": "GMObject",
 }
