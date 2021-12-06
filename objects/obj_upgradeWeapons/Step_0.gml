@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.waveStart=false){
+if(global.waveStart=false and global.wave<8){
 	//have pop up come up 
 	if(global.hasHandgun==true){
 		room_goto(rm_HandgunUpgrade);
@@ -11,4 +11,12 @@ if(global.waveStart=false){
 	if(global.hasAssultRifle){
 		room_goto(rm_assultRifleUpgrade);
 	}	
+	if(!global.hasAssultRifle and !global.hasHandgun and !global.hasShotgun){
+		room_goto(rm_noWeapon);
+	}
 }
+
+if(global.wave==8){
+	room_goto(rm_endWin);	
+}
+

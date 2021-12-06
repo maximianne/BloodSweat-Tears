@@ -6,6 +6,9 @@ if(on_player == false){
 	bounce = true;
 	on_player = true;
 	if(global.KnifeOut==true){
-		healthpoints--;	
+		healthpoints-=(global.knifeDamage + global.overallDamage);	
+	}
+	if(global.KnifeOut==true and global.isSprintNow==true){
+		healthpoints-=(global.knifeDamage + global.overallDamage+.5);	
 	}
 }

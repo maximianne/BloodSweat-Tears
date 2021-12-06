@@ -11,12 +11,12 @@ global.endurance=0;
 global.intelligence=0;
 
 //strength 
-global.canCarryExtraWeapon=false;
+global.ammoAmount=100;
 global.damageResistence=1;
 global.sprintDamage=false;
 
 //cognizance 
-global.explosiveDamage=0;
+global.explosiveDamage=20;
 global.freeWeaponUpgrade=0;
 global.weaponAccuracy=false;
 global.currencyAppears=0;
@@ -31,17 +31,16 @@ global.sprintAmountIncrease=.5;
 //intelligence
 global.objectsAppearHealth=0;
 global.zombieSpeedDecrease=0;
-global.canPickUpRand=false;
+global.knifeDeprecation=1;
 global.takeBullets=false;
 
 //luck 
 global.objectsAppearBullets1=0;
-global.zombiesExplode=false;
+global.zombiesExplode=0;
 global.overallDamage=0;
 
 //agility
 global.canCrouch=false;
-
 
 global.healthFound=0;
 global.currency=0;
@@ -53,6 +52,8 @@ global.hasShotgun=false;
 //player
 global.CS=1;
 global.KnifeOut=false;
+global.isCrouchNow=false;
+global.isSprintNow=false;
 
 //wave 
 global.wave=1;
@@ -80,3 +81,7 @@ global.knifeDamage=1;
 
 //end screen
 global.playerIsDead=false;
+
+//grenade
+global.grenadeNum=0;
+global.isExploding=false;

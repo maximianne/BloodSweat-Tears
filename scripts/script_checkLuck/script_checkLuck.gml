@@ -18,13 +18,13 @@ function script_checkLuck(n){
 		global.objectsAppearBullets1=4;
 		global.objectsAppearHealth+=1;
 		global.currencyAppears=10;
-		global.zombiesExplode=true;
+		global.zombiesExplode=2;
 	}
 	if(n==5){
 		global.objectsAppearBullets1=4;
 		global.objectsAppearHealth+=1;
 		global.currencyAppears=10;
-		global.zombiesExplode=true;
+		global.zombiesExplode=2;
 		global.overallDamage+=.2;
 	}
 }

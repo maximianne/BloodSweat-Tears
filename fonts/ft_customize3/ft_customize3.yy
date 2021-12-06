@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "anim_curve_icon_font",
   "styleName": "Regular",
   "size": 10.0,

@@ -14,9 +14,10 @@ if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>gl
 	alarm[0]=room_speed*global.assultRifleReloadSpeed;
 	}
 	
-if(alarm[1]==-1){ 
+
+	if(alarm[1]==-1){ 
 	//was 10, trying to make it faster
-	alarm[1]=room_speed*1.5;
+	alarm[1]=5;
 	}
 
 if(reduce_health >= 3){
@@ -101,7 +102,7 @@ if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>gl
 	
 if(alarm[1]==-1){ 
 	//was 10, trying to make it faster
-	alarm[1]=room_speed*1.5;
+	alarm[1]=5;
 	}
 
 if(reduce_health >= 3){
