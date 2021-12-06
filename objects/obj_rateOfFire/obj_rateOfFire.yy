@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_building3RM1",
-    "path": "sprites/spr_building3RM1/spr_building3RM1.yy",
+    "name": "damage",
+    "path": "sprites/damage/damage.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_house",
-    "path": "objects/obj_house/obj_house.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "main room",
-    "path": "folders/Objects/room/main room.yy",
+    "name": "hand gun",
+    "path": "folders/Objects/weapons/hand gun.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_building3RM1",
+  "name": "obj_rateOfFire",
   "tags": [],
   "resourceType": "GMObject",
 }
