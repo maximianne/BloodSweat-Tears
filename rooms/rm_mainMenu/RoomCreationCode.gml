@@ -82,6 +82,12 @@ global.knifeDamage=1;
 //end screen
 global.playerIsDead=false;
 
-//grenade
-global.grenadeNum=0;
-global.isExploding=false;
+//customizationRoom 
+global.AmmuntionEx=100;
+global.currencyExample=20;
+global.canCrouchChar="No"
+global.canResistChar= "No" 
+global.autoDamage=8;
+global.knifeDC=1;
+global.shotgunDamageDC=6;
+global.speedPLAYER=2;
