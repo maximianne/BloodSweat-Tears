@@ -2,7 +2,7 @@
 // You can write your code in this editor
 // You can write your code in this editor
 if(mouse_check_button(mb_left) and reloadAmount>0){
-    repeat(global.handgunRateOfFire){
+    repeat(1){
 	newBullet=instance_create_layer(obj_playerHandgun.x, obj_playerHandgun.y,"bullet",obj_bulletFiredHandgun);
     newBullet.direction = image_angle;
 	newBullet.image_angle=image_angle;

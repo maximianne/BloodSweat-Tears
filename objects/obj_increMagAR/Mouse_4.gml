@@ -1,5 +1,5 @@
 if(global.currency>=6 && global.assultRifleMag<25){
-	global.assultRifleMag++;
+	global.assultRifleMag+=2;
 	global.currency-=6;
 }
 

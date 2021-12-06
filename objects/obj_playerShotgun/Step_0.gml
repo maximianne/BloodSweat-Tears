@@ -15,7 +15,7 @@ if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>gl
 	
 if(alarm[1]==-1){ 
 	//was 10, trying to make it faster
-	alarm[1]=global.shotgunFiresPerRound;
+	alarm[1]=20;
 	}
 
  
@@ -94,13 +94,16 @@ if(hInput!=0 or vInput!=0){
 }
 
 else{
-	if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>global.shotgunFiresPerRound){
+	
+	
+if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>global.shotgunFiresPerRound){
+	//alarm[0]=global.shotgunReloadSpeed;
 	alarm[0]=room_speed*global.shotgunReloadSpeed;
-	}
+}
 	
 if(alarm[1]==-1){ 
 	//RATE OF FIRE
-	alarm[1]=global.shotgunFiresPerRound;
+	alarm[1]=20;
 	}
 
  

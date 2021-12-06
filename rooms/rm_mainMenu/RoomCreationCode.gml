@@ -63,13 +63,14 @@ global.zombieAmount=0;
 global.handgunRateOfFire=20;
 global.handgunDamage=1;
 global.handgunMag=5;
+
+//bullets
 global.bulletsGun1=0;
 
 //shotgunUpgrade
-global.shotgunFiresPerRound=25;
-global.shotgunReloadSpeed=1;
+global.shotgunFiresPerRound=2;
+global.shotgunReloadSpeed=2;
 global.shotgunDamage=6;
-
 //assultRifleUpgrade
 global.assultRifleMag=25;
 global.assultRifleReloadSpeed=8;
