@@ -9,3 +9,6 @@ script_checkCognizance(global.cognizance);
 if(global.left==0){
 	room_goto(rm_room1);
 }
+
+
+

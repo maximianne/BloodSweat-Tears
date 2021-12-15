@@ -3,28 +3,32 @@
 function script_checkIntelligence(n){
 
 	if(n==1){
-		global.objectsAppearHealth+=2;
+		global.zombieSpeedDecrease+=.2;
 	}
 	if(n==2){
-		global.objectsAppearHealth+=2;
 		global.zombieSpeedDecrease+=.2;
-	}
-	if(n==3){
-		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease+=.2;
-		global.knifeDeprecation-=.5;
-	}
-	if(n==4){
-		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease+=.2;
-		global.knifeDeprecation-=.5;
-		global.freeWeaponUpgrade++;
-	}
-	if(n==5){
-		global.objectsAppearHealth+=2;
-		global.zombieSpeedDecrease+=.2;
-		global.knifeDeprecation-=.5;
-		global.freeWeaponUpgrade++;
 		global.takeBullets=true;
 	}
+	if(n==3){
+		global.zombieSpeedDecrease+=.2;
+		global.takeBullets=true;
+		global.knifeDeprecation=.5;
+	}
+	if(n==4){
+		global.zombieSpeedDecrease+=.2;
+		global.takeBullets=true;
+		global.knifeDeprecation=.5;
+		global.objectsAppearHealth+=2;
+	}
+	if(n==5){
+		global.zombieSpeedDecrease+=.2;
+		global.takeBullets=true;
+		global.knifeDeprecation=.5;
+		global.objectsAppearHealth+=2;
+		global.freeWeaponUpgrade++;
+		
+	}
 }
+
+
+

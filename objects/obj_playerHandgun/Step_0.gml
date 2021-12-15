@@ -16,7 +16,7 @@ if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>ma
 		reloadAmount+=magSize;
 		global.bulletsGun1-=5;
 	}
-
+image_angle=point_direction(x, y, mouse_x, mouse_y);
 
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
@@ -73,16 +73,6 @@ if(hInput!=0 or vInput!=0){
 	y+=moveY;
 	
 	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
 	
 } 
 
@@ -112,7 +102,7 @@ if(reduce_health >= 3){
 if(global.healthB==0){
 	room_goto(rm_end);
 }
-
+image_angle=point_direction(x, y, mouse_x, mouse_y);
 if(hInput!=0 or vInput!=0){
 
 	dir=point_direction(0,0,hInput, vInput);
@@ -158,18 +148,6 @@ if(hInput!=0 or vInput!=0){
 	}
 	x+=moveX; 
 	y+=moveY;
-	
-	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
 	
 } 
 

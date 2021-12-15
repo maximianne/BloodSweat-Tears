@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "customization room ",
-    "path": "folders/Objects/customization room .yy",
+    "path": "folders/Objects/room/customization room .yy",
   },
   "resourceVersion": "1.0",
   "name": "object_display",

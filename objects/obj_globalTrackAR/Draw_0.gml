@@ -23,3 +23,32 @@ draw_set_font(ft_customize4)
 
 draw_text(1241, 65, "Caps:" + string(global.currency)); 
 draw_text(1132, 120, "Free Upgrade:" + string(global.freeWeaponUpgrade));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

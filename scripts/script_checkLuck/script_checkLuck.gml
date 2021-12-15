@@ -28,3 +28,4 @@ function script_checkLuck(n){
 		global.overallDamage+=.2;
 	}
 }
+

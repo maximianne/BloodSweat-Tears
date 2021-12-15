@@ -9,9 +9,15 @@ if(canSprint=true and keyboard_check(vk_shift)){
 
 	alarm[5]=room_speed*1.5;
 
-if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and global.bulletsGun1>global.shotgunFiresPerRound){
+if(keyboard_check_pressed(ord("R"))and reloadAmount==0 and 
+
+		global.bulletsGun1>global.shotgunFiresPerRound){
+	
 	alarm[0]=room_speed*global.shotgunReloadSpeed;
+	
 	}
+	
+	image_angle=point_direction(x, y, mouse_x, mouse_y);
 	
 if(alarm[1]==-1){ 
 	//was 10, trying to make it faster
@@ -74,18 +80,6 @@ if(hInput!=0 or vInput!=0){
 	x+=moveX; 
 	y+=moveY;
 	
-	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
-	
 } 
 
 	else{ 
@@ -106,7 +100,7 @@ if(alarm[1]==-1){
 	alarm[1]=20;
 	}
 
- 
+ image_angle=point_direction(x, y, mouse_x, mouse_y);
 
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
@@ -161,19 +155,6 @@ if(hInput!=0 or vInput!=0){
 	}
 	x+=moveX; 
 	y+=moveY;
-	
-	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
-	
 } 
 
 	else{ 

@@ -5,6 +5,7 @@ vInput= keyboard_check(ord("S")) - keyboard_check(ord("W"));
 image_index=0;
 
 if(canSprint=true){
+	image_angle=point_direction(x, y, mouse_x, mouse_y);
 
 if (keyboard_check(vk_shift)){
 global.isSprintNow=true;
@@ -63,17 +64,7 @@ if(hInput!=0 or vInput!=0){
 	x+=moveX; 
 	y+=moveY;
 	
-	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
+//here 
 	
 }
 	
@@ -94,6 +85,8 @@ if(hInput!=0 or vInput!=0){
 if(global.canCrouch == true and keyboard_check(ord("C"))){
 	global.isCrouchNow=true;
 	alarm[7]=room_speed*1.5;
+	
+	image_angle=point_direction(x, y, mouse_x, mouse_y);
 
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
@@ -148,17 +141,7 @@ if(hInput!=0 or vInput!=0){
 	x+=moveX; 
 	y+=moveY;
 	
-	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
+//HERE
 	
 }
 	
@@ -174,6 +157,7 @@ if(hInput!=0 or vInput!=0){
 }
 
 else{
+	image_angle=point_direction(x, y, mouse_x, mouse_y);
 	
 if(reduce_health >= 3){
 	global.healthB = global.healthB - 1;
@@ -228,17 +212,7 @@ if(hInput!=0 or vInput!=0){
 	x+=moveX; 
 	y+=moveY;
 	
-	//set sprite
-	switch(dir){ 
-	case 0:  image_angle=0; break;
-	case 45: image_angle=45; break;
-	case 90: image_angle=90; break;
-	case 135: image_angle=135; break;
-	case 180: image_angle=180; break;
-	case 225:image_angle=225; break;
-	case 270: image_angle=270; break;
-	case 315: image_angle=315; break;
-	} 
+//here
 	
 }
 	

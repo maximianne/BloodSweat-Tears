@@ -6,24 +6,30 @@ function script_checkStrength(n){
 	}
 	if(n==2){
 		global.knifeDamage+=2;
-		global.assultRifleDamage+=2;
+		global.ammoAmount+=25;
+		global.healthAmount+=3;
 	}
 	if(n==3){
 		global.knifeDamage+=2;
-		global.assultRifleDamage+=2;
 		global.ammoAmount+=25;
+		global.healthAmount+=3;
+		global.sprintDamage=true;
 	}
 	if(n==4){
 		global.knifeDamage+=2;
-		global.assultRifleDamage+=2;
 		global.ammoAmount+=25;
+		global.healthAmount+=3;
+		global.sprintDamage=true;
 		global.damageResistence+=.25;
 	}
 	if(n==5){
 		global.knifeDamage+=2;
-		global.assultRifleDamage+=2;
 		global.ammoAmount+=25;
-		global.damageResistence+=.25;
+		global.healthAmount+=3;
 		global.sprintDamage=true;
+		global.damageResistence+=.25;
+		global.assultRifleDamage+=2;
 	}
 }
+
+

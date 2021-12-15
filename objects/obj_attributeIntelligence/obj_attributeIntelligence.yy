@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "descriptions",
-    "path": "folders/Objects/customization room /descriptions.yy",
+    "path": "folders/Objects/room/customization room /descriptions.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_attributeIntelligence",

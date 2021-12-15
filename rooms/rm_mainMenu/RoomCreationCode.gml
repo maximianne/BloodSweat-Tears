@@ -1,6 +1,8 @@
 global.cameraExist=false;
 audio_play_sound(musicINTRO, 100, true);
-
+//character gen
+global.healthFound=0;
+global.currency=0;
 
 //character build
 global.strength=0;
@@ -12,14 +14,14 @@ global.intelligence=0;
 
 //strength 
 global.ammoAmount=100;
+global.healthAmount=5;
 global.damageResistence=1;
 global.sprintDamage=false;
 
 //cognizance 
-global.explosiveDamage=20;
 global.freeWeaponUpgrade=0;
-global.weaponAccuracy=false;
 global.currencyAppears=0;
+global.oneLessWave=false;
 
 //endurance 
 global.damageResistence=.5;
@@ -31,19 +33,19 @@ global.sprintAmountIncrease=.5;
 //intelligence
 global.objectsAppearHealth=0;
 global.zombieSpeedDecrease=0;
-global.knifeDeprecation=1;
 global.takeBullets=false;
 
 //luck 
 global.objectsAppearBullets1=0;
+//less zombies per wave
 global.zombiesExplode=0;
 global.overallDamage=0;
 
 //agility
 global.canCrouch=false;
+global.generateCount=0;
+global.canGenerateHealth=false;
 
-global.healthFound=0;
-global.currency=0;
 //weapons
 global.hasHandgun=false;
 global.hasAssultRifle=false;
@@ -71,6 +73,7 @@ global.bulletsGun1=0;
 global.shotgunFiresPerRound=2;
 global.shotgunReloadSpeed=2;
 global.shotgunDamage=6;
+
 //assultRifleUpgrade
 global.assultRifleMag=25;
 global.assultRifleReloadSpeed=8;
@@ -78,6 +81,7 @@ global.assultRifleDamage=8;
 
 //knife info
 global.knifePercent=100;
+global.knifeDeprecation=1;
 global.knifeDamage=1;
 
 //end screen
@@ -92,3 +96,9 @@ global.autoDamage=8;
 global.knifeDC=1;
 global.shotgunDamageDC=6;
 global.speedPLAYER=2;
+
+
+
+
+
+

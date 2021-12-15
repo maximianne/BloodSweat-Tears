@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "health and inventory",
-    "path": "folders/Objects/health and inventory.yy",
+    "name": "main room",
+    "path": "folders/Objects/room/main room.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_createAdditionalItems",

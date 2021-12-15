@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "minusplus",
-    "path": "folders/Objects/customization room /minusplus.yy",
+    "path": "folders/Objects/room/customization room /minusplus.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_decreI",

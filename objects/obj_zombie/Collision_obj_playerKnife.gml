@@ -9,6 +9,14 @@ if(on_player == false){
 		healthpoints-=(global.knifeDamage + global.overallDamage);	
 	}
 	if(global.KnifeOut==true and global.isSprintNow==true and global.knifePercent>0){
-		healthpoints-=(global.knifeDamage + global.overallDamage+.5);	
+		healthpoints-=(global.knifeDamage + global.overallDamage);	
+		if(global.sprintDamage=true){
+			healthpoints-=.5;
+		}
 	}
 }
+
+
+
+
+

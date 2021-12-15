@@ -16,6 +16,9 @@ if(global.waveStart=false and global.wave<8){
 	}
 }
 
+if(global.wave==7 && global.oneLessWave=true){
+	room_goto(rm_endWin);	
+}
 if(global.wave==8){
 	room_goto(rm_endWin);	
 }
@@ -23,3 +26,17 @@ if(global.wave==8){
 if(keyboard_check_pressed(vk_enter)){
 	game_restart();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

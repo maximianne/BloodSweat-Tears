@@ -4,3 +4,8 @@ if(global.RawIncreaseHealth==true && global.healthB<21){
 	global.healthB++;
 instance_destroy();
 }
+
+
+
+
+

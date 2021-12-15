@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "customization room ",
+    "path": "folders/Objects/room/customization room .yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_updateStuff",

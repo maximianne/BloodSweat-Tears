@@ -27,3 +27,5 @@ function script_checkEndurance(n){
 		global.sprintAmountIncrease+=.5;
 	}
 }
+
+
